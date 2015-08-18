@@ -1,0 +1,16 @@
+vcs: git
+format: md
+issue_tracker_pattern: https://github.com/suzuki/readmegen-sample/issues/\1
+break: "## ChangeLog"
+output_file_name: "README.md"
+message_groups:
+  Features:
+    - feature
+    - feat
+  Bugfixes:
+    - fix
+    - bugfix
+  Documentation:
+    - docs
+  Refactoring:
+    - refactoring
